@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&family=Montserrat:wght@200;300;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.poster{
+    background-image: url('./Images/pexels-ekaterina-bolovtsova-6077326.jpg');
+    position:absolute;
+    top:50%;
+    left:0;
+    right: 0px;
+    bottom: 0px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+body{
+    background-color: #403837;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px 10px;
+}
+
+img.logo{
+    width: 120px;
+    height: 40px;
+    position: relative;
+    left: 70px;
+}
+
+.list{
+    /* padding-left: 70vh; */
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    position: relative;
+    left: 70vh;
+}
+.list>li{
+    padding: 10 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.list>li:first-child{
+    font-weight: 500;
+}
+.button-small{
+    position: relative;
+    top: -10px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #c2bf34;
+    background-color: transparent;
+    border-color: #c2bf34;
+    border-style: solid;
+    border: .5px solid;
+    font-weight: 400;
+}
+
+.justice_heading{
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero-heading{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: xxx-large;
+    color: white;
+    line-height: 65px;
+}
+
+article{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    right: 70px;
+    line-height: 25px;
+}
